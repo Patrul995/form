@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div class="divForm">
-      <form id="form" action="./index2.html" method="dialog">
-        <div class="div1">
-          <label class="name">Salutation</label>
-          <select>
-            <option>None</option>
-          </select>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="divForm">
+    <form id="form" action="./index2.html" method="dialog">
+      <div class="div1">
+        <label class="name">Salutation</label>
+        <select class="input">
+          <option>None</option>
+          <option>One</option>
+          <option>Two</option>
+          <option>Three</option>
+          <option>Four</option>
+          <option>Five</option>
+          <option>Six</option>
+          <option>Seven</option>
+        </select>
+      </div>
+      <div class="div1">
+        <label class="firstName">First name:</label><input type="text" class="input" />
+      </div>
+      <div class="div1">
+        <label class="lastName">Last name:</label><input type="text" class="input" />
+      </div>
+      <div class="div1">
+        <label class="genders">Genders:</label>
+        <div>
+          <label class="label1"> Male</label>
+          <input name="leo" class="label1" type="radio" />
+          <label class="label1">Female</label>
+          <input name="leo" type="radio" />
         </div>
-        <div class="div1">
-          <label class="firstName">First name:</label><input type="text" />
-        </div>
-        <div class="div1">
-          <label class="lastName">Last name:</label><input type="text" />
-        </div>
-        <div class="div1">
-          <label class="genders">Genders:</label>
-          <div>
-            <label class="label1"> Male</label>
-            <input class="label1" type="radio" />
-            <label class="label1">Female</label>
-            <input type="radio" />
-          </div>
-        </div>
-        <div class="div1">
-          <label class="lastName">Your e-mail:</label><input type="email" />
-        </div>
-        <div class="div1">
-          <label class="lastName">Your e-mail:</label
-          ><input type="date" class="date" />
-        </div>
-        <div class="div1">
-          <label class="lastName">Adress :</label
-          ><textarea name="" id=""></textarea>
-        </div>
-        <div class="divClick">
-          <button class="click"><strong>Click to send </strong></button>
-        </div>
-      </form>
-    </div>
-  </body>
+      </div>
+      <div class="div1">
+        <label class="lastName">Your e-mail:</label><input type="email" class="input" />
+      </div>
+      <div class="div1">
+        <label class="lastName">Birth date:</label><input type="date" class="input" />
+      </div>
+      <div class="div1">
+        <label class="lastName">Addres :</label><textarea name="" id="" class="input"></textarea>
+      </div>
+      <div class="divClick">
+        <button class="click"><strong>Click to send </strong></button>
+      </div>
+    </form>
+  </div>
+</body>
+
 </html>
